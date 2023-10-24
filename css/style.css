@@ -9,7 +9,7 @@
 /* DEBUG */
 .border{
     border: solid 1px black;
-    min-height: 400px;
+    /* min-height: 400px; */
 }
 
 /* GENERAL STYLE */
@@ -51,6 +51,10 @@ li{
     margin: 0 5px;
 }
 
+i{
+    padding-right: 4px;
+}
+
 h1{
     font-size: 4vw;
     font-weight: 900;
@@ -76,6 +80,11 @@ h2{
     padding: 5px 10px;
 }
 
+input[type="radio"]{
+    accent-color: #0061ff;
+}
+
+/* HEADER */
 nav{
     /* position: fixed;
     width: 100%;
@@ -94,12 +103,13 @@ nav{
 main{
     height: calc(100% - 80px);
     overflow-y: auto;
+    /* DEBUG */
+    padding-bottom: 100px;
 }
 
 /* JUMBO */
 .bg-azzurro{
     background-color: #b4d0e7;
-    /* DEBUG */
     max-height: 760px;
 }
 
@@ -132,7 +142,61 @@ main{
 }
 
 .fatturazione{
-    
+    padding-bottom: 20px;
+}
+
+.fatturazione span{
+    margin-right: 20px;
+}
+
+.soluzioni-pagamento{
+    width: 100%;
+}
+
+.soluzione{
+    width: 30%;
+    border: solid 1px lightgray;
+    flex-direction: column;
+}
+
+.dimensione-piano{
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px lightgray;
+    font-weight: lighter;
+    padding: 5px 0;
+}
+
+.occhiata{
+    padding: 30px 25px 0 25px ;
+}
+
+.occhiata h3{
+    font-size: 25px;
+    padding: 0 0 20px;
+}
+
+.occhiata h5{
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 20px 0;
+}
+
+.occhiata li{
+    padding: 10px 0;
+}
+
+.occhiata span a{
+    text-decoration: underline;
+    color: blue;
+    padding: 30px 0 30px;
+}
+
+.barretta{
+    width: 40px;
+    border-top: 1px solid lightgray;
+    margin: 0 0 30px 25px;
+
 }
 
 
