@@ -1,6 +1,138 @@
 *{
     margin: 0;
     border: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* DEBUG */
+.border{
+    border: solid 1px black;
+    min-height: 400px;
+}
+
+/* GENERAL STYLE */
+.general-container{
+    height: 100vh
+}
+
+.w60-margin-auto{
+    width: 65%;
+    margin: 0 auto;
+    /* DEBUG */
+    /* min-height: 600px; */
+}
+
+.w50-margin-auto{
+    width: 50%;
+    margin: 0 auto;
+    /* DEBUG */
+    min-height: 600px;
+}
+
+.dsflex{
+    display: flex;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    margin: 0 5px;
+}
+
+h1{
+    font-size: 4vw;
+    font-weight: 900;
+    padding: 85px 0 70px;
+}
+
+h2{
+    padding: 150px 0 70px;
+    font-size: 2vw;
+}
+
+/* BUTTONS */
+.bg-button-blu{
+    background-color: #0061ff;
+    color: white;
+}
+
+.button{
+    text-align: center;
+}
+
+#button-nav{
+    padding: 5px 10px;
+}
+
+nav{
+    /* position: fixed;
+    width: 100%;
+    background-color: white; */
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    z-index: 500;
+}
+
+#logo img{
+    align-self: center;
+}
+
+/* MAIN */
+main{
+    height: calc(100% - 80px);
+    overflow-y: auto;
+}
+
+/* JUMBO */
+.bg-azzurro{
+    background-color: #b4d0e7;
+    /* DEBUG */
+    max-height: 760px;
+}
+
+.paragrafo-jumbo{
+    width: 30%;
+    flex-direction: column;
+}
+
+.paragrafo-jumbo div{
+    margin: 0 0 25px 0;
+}
+
+#row-down{
+    font-size: 3vw;
+    margin: 50px 0 10px;
+}
+
+.immagine-jumbo{
+    z-index: 499;
+    width: 70%;
+}
+
+.immagine-jumbo img{
+    width: 100%;
+}
+
+/* MAIN SEZIONE 1 */
+.sezione1{
+    flex-direction: column;
+}
+
+.fatturazione{
+    
+}
+
+
