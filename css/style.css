@@ -6,12 +6,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* DEBUG */
-.border{
-    border: solid 1px black;
-    /* min-height: 400px; */
-}
-
 /* GENERAL STYLE */
 .general-container{
     height: 100vh
@@ -33,6 +27,15 @@
 
 .dsflex{
     display: flex;
+}
+
+.wrap-between{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.div-section{
+    margin-bottom: 150px;
 }
 
 a{
@@ -63,7 +66,7 @@ h1{
 }
 
 h2{
-    padding: 150px 0 70px;
+    padding-bottom: 70px;
     font-size: 2vw;
 }
 
@@ -73,8 +76,16 @@ h2{
     color: white;
 }
 
+/* .bg-button-white{
+    border: 1px solid black;
+} */
+
 .button{
     text-align: center;
+}
+
+.border{
+    border: solid 1px black;
 }
 
 #button-nav{
@@ -112,6 +123,7 @@ main{
 .bg-azzurro{
     background-color: #b4d0e7;
     max-height: 760px;
+    margin-bottom: 150px;
 }
 
 .paragrafo-jumbo{
@@ -221,6 +233,45 @@ main{
 .contenitore-button{
     width: 30%;
     margin-left: 26px;
+}
+
+/* MAIN SEZIONE 2 */
+.immagine-sezione2 img{
+    width: 30vw;
+    margin-bottom: 150px;
+}
+
+.paragrafo-sezione2{
+    padding: 50px 0 0 40px;
+}
+
+.paragrafo-sezione2 div h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.paragrafo-sezione2 div p{
+    margin-bottom: 20px;
+}
+
+/* MAIN SEZIONE 3 */
+.immagine-sezione3{
+    width: 30%;
+    margin-bottom: 35px;
+}
+
+.immagine-sezione3 img{
+    width: 100%;
+}
+
+.immagine-sezione3 h3{
+    margin-bottom: 15px;
+}
+
+.link-aside{
+    color: blue;
+    padding: 0;
+    text-decoration: underline;
 }
 
 
