@@ -7,8 +7,13 @@
 }
 
 /* GENERAL STYLE */
+body{
+    height: 100vh;
+}
+
 .general-container{
-    height: 100vh
+    height: calc(100% - 80px);
+    overflow-y: auto;
 }
 
 .w60-margin-auto{
@@ -162,8 +167,8 @@ nav{
 
 /* MAIN */
 main{
-    height: calc(100% - 80px);
-    overflow-y: auto;
+    /* height: calc(100% - 80px);
+    overflow-y: auto; */
     /* DEBUG */
     padding-bottom: 100px;
 }
@@ -409,6 +414,47 @@ main{
     justify-content: space-between;
     padding: 15px 15px 15px 0;
     border-bottom: 1px solid black;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    padding-bottom: 50px;
+}
+
+footer .dsflex{
+    justify-content: space-between;
+}
+
+footer h3{
+    font-size: 1.2vw;
+    padding: 70px 0 20px 0;
+}
+
+footer li{
+    transform: translate(-10%, 0);
+    font-size: 0.9vw;
+    padding-bottom: 15px;
+}
+
+.list-footer{
+    width: 20%;
+}
+
+.barra{
+    border-top: 1px solid lightgray;
+    width: 5vw;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+footer span{
+    color: lightgray;
+}
+
+footer i{
+    padding: 0 4px;
+    transform: translate(-10%, 5%);
 }
 
 
